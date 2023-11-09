@@ -1,0 +1,68 @@
+#header-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    margin-top: 0px;
+    color: rgb(78, 145, 233);
+}
+
+.navigation-bar {
+    display: flex;
+    gap: 10px;
+}
+
+.navigation-bar>a {
+    text-decoration: none;
+    color: rosybrown;
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+#my-section {
+    background-color: beige;
+    padding: 20px;
+    color: white;
+}
+
+h3 {
+    color: #333;
+}
+
+label {
+    font-weight: bold;
+    color: #333;
+}
+
+input {
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 4px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(235, 176, 67);
+}
+
+button:active {
+    transform: translateY(4px);
+    background-color: orange;
+}
+
+button:disabled {
+    background-color: red;
+}
